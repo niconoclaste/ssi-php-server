@@ -1,0 +1,16 @@
+{
+  "name": "大和証券",
+  "version": "0.0.1",
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "connect-ssi": "^1.1.1",
+    "gulp": "^4.0.2",
+    "gulp-connect-php": "^0.0.5",
+    "gulp-convert-encoding": "^2.1.0"
+  },
+  "type": "module",
+  "scripts": {
+    "shiftJis": "gulp shiftJis",
+    "utf8": "gulp utf8"
+  }
+}

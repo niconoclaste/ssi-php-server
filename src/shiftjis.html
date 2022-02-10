@@ -1,0 +1,27 @@
+<!--#set var="variable" value="TEST1" -->
+
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="Shift_JIS">
+    <title>SSI テスト</title>
+  </head>
+  <body>
+
+    <h1>SSI テスト</h1>
+    <p>SSI インクルードファイル : [shiftjis-include.html]</p>
+    <!--#include virtual="shiftjis-include.html" -->
+
+    <p>[shiftjis-include.html]でセットした [incVar] の変数は : <!--#echo var="incVar" --></p>
+
+    <p>[variable] 変数は 'TEST' ? <br>
+<!--#if expr="$variable = TEST" -->
+      <strong>合ってる！</strong> 
+<!--#else -->
+      <strong>違う、、、</strong>中身は : '<!--#echo var="variable" -->'
+<!--#endif -->
+    </p>
+
+
+  </body>
+</html>
