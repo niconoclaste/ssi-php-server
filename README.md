@@ -5,7 +5,6 @@ Local server supporting SSI, PHP, hot reload and Shift-JIS encoded files
 <br>
 
 ## Dependencies
-___
 
 - gulp
 - gulp-connect-php
@@ -17,7 +16,6 @@ ___
 <br>
 
 ## Configuration
-___
 
 First, you need to have PHP installed on your machine in order to run PHP scripts.
 
@@ -38,7 +36,6 @@ Thats all !
 <br>
 
 ## Install
-___
 <br>
 
 ```sh
@@ -50,7 +47,6 @@ pnpm i
 <br>
 
 ## Launch SSI + PHP server with hot reload
-___
 <br>
 
 
