@@ -1,5 +1,5 @@
 {
-  "name": "大和証券",
+  "name": "ssi-php-server",
   "version": "0.0.1",
   "devDependencies": {
     "browser-sync": "^2.27.7",
