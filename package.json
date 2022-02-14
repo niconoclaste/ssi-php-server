@@ -1,6 +1,13 @@
 {
   "name": "ssi-php-server",
   "version": "0.0.1",
+  "keywords": [
+    "ssi",
+    "php",
+    "hot reload",
+    "Shift-JIS",
+    "local server"
+  ],
   "devDependencies": {
     "browser-sync": "^2.27.7",
     "connect-ssi": "^1.1.1",

@@ -18,8 +18,8 @@ const __dirname = path.resolve(path.dirname(''));
 const srcFolder = 'src';
 const distFolder = 'dist';
 
-const phpExe = 'path to php.exe';
-const phpIni = 'path to php.ini';
+const phpExe = 'path-to-php.exe';
+const phpIni = 'path-to-php.ini';
 
 gulp.task('copy', function(done) {
   gulp.src([srcFolder + '/**/*'])
